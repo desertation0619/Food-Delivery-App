@@ -17,7 +17,8 @@ public class Menu implements Parcelable {
         this.totalInCart = totalInCart;
     }
 
-    protected Menu(Parcel in) {
+    protected Menu(Parcel in)
+    {
         name = in.readString();
         price = in.readFloat();
         url = in.readString();

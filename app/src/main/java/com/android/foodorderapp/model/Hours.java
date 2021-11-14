@@ -1,5 +1,8 @@
 package com.android.foodorderapp.model;
 
+import android.widget.Button;
+import android.widget.TextView;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -15,6 +18,7 @@ public class Hours {
     String Thursday;
     String Friday;
     String Saturday;
+
 
     public String getSunday() {
         return Sunday;
